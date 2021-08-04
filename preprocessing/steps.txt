@@ -1,0 +1,8 @@
+Steps:
+
+1) mean_read_length
+2) bwa_align
+3) markdups
+4) realign_target
+5) indel_realign
+6) recal

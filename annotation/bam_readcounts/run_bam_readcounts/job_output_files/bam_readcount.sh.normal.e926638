@@ -1,0 +1,4 @@
+Minimum mapping quality is set to 0
+Expect library: LB in BAM
+WARNING: In read K00124:359:HY5KWBBXX:2:2104:15716:45769: Couldn't find single-end mapping quality. Check to see if the SM tag is in BAM.
+The previous warning has been emitted 1 times and will be disabled.

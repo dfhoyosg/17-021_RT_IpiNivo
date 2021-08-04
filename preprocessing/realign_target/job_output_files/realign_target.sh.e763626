@@ -1,0 +1,86 @@
+INFO  21:49:37,596 HelpFormatter - ------------------------------------------------------------------------------------ 
+INFO  21:49:38,827 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.8-1-0-gf15c1c3ef, Compiled 2018/02/19 05:43:50 
+INFO  21:49:38,828 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  21:49:38,828 HelpFormatter - For support and documentation go to https://software.broadinstitute.org/gatk 
+INFO  21:49:38,829 HelpFormatter - [Mon Dec 02 21:49:37 EST 2019] Executing on Linux 4.15.0-66-generic amd64 
+INFO  21:49:38,829 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_171-b11 
+INFO  21:49:38,835 HelpFormatter - Program Args: -T RealignerTargetCreator -R /mnt/data/david/ting/17-021_RT_Ipi_Nivo/reference_files//b37/human_g1k_v37_decoy.fasta --known /mnt/data/david/ting/17-021_RT_Ipi_Nivo/reference_files//indel_ref/1000G_phase1.indels.b37.vcf --known /mnt/data/david/ting/17-021_RT_Ipi_Nivo/reference_files//indel_ref/Mills_and_1000G_gold_standard.indels.b37.vcf -I /mnt/localssd/763626.1.standard.q/input//NS90_17_021_WBC_17_merged_markdup.bam -I /mnt/localssd/763626.1.standard.q/input//T01455_merged_markdup.bam -nt 10 -o /mnt/localssd/763626.1.standard.q/output//NS90_17_021_WBC_17-T01455.intervals 
+INFO  21:49:43,267 HelpFormatter - Executing as david@acmilan on Linux 4.15.0-66-generic amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_171-b11. 
+INFO  21:49:43,267 HelpFormatter - Date/Time: 2019/12/02 21:49:37 
+INFO  21:49:43,267 HelpFormatter - ------------------------------------------------------------------------------------ 
+INFO  21:49:43,268 HelpFormatter - ------------------------------------------------------------------------------------ 
+INFO  21:49:54,776 NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/nfs/data/software/GenomeAnalysisTK-3.8-1-0-gf15c1c3ef/GenomeAnalysisTK.jar!/com/intel/gkl/native/libgkl_compression.so 
+INFO  21:49:54,799 GenomeAnalysisEngine - Deflater: IntelDeflater 
+INFO  21:49:54,799 GenomeAnalysisEngine - Inflater: IntelInflater 
+INFO  21:49:54,800 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  21:49:57,501 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  21:49:57,989 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bam
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bam
+INFO  21:49:58,036 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.05 
+INFO  21:49:58,217 MicroScheduler - Running the GATK in parallel mode with 10 total threads, 1 CPU thread(s) for each of 10 data thread(s), of 72 processors available on this machine 
+INFO  21:49:58,303 GenomeAnalysisEngine - Preparing for traversal over 2 BAM files 
+INFO  21:49:58,505 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  21:49:58,505 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  21:49:58,506 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  21:49:58,506 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  21:49:58,513 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bam
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bam
+INFO  21:49:58,540 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.03 
+INFO  21:49:58,542 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bam
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bam
+INFO  21:49:58,562 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.02 
+INFO  21:49:58,563 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bam
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bam
+INFO  21:49:58,587 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.02 
+INFO  21:49:58,589 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bam
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bam
+INFO  21:49:58,618 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.03 
+INFO  21:49:58,619 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bam
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bam
+INFO  21:49:58,646 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.03 
+INFO  21:49:58,647 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bam
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bam
+INFO  21:49:58,678 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.03 
+INFO  21:49:58,679 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bam
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bam
+INFO  21:49:58,709 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.03 
+INFO  21:49:58,710 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bam
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bam
+INFO  21:49:58,739 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.03 
+INFO  21:49:58,740 SAMDataSource$SAMReaders - Initializing SAMRecords in serial 
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/NS90_17_021_WBC_17_merged_markdup.bam
+WARNING: BAM index file /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bai is older than BAM /mnt/localssd/763626.1.standard.q/input/T01455_merged_markdup.bam
+INFO  21:49:58,763 SAMDataSource$SAMReaders - Done initializing BAM readers: total time 0.02 
+INFO  21:50:28,511 ProgressMeter -      2:66275481   3.15392829E8    30.0 s       0.0 s       10.1%     5.0 m       4.5 m 
+INFO  21:50:59,796 ProgressMeter -       4:8983333   6.99336168E8    61.0 s       0.0 s       22.3%     4.6 m       3.5 m 
+INFO  21:51:30,658 ProgressMeter -      6:34324781   1.096735368E9    92.0 s       0.0 s       35.0%     4.4 m       2.9 m 
+INFO  21:52:00,659 ProgressMeter -       8:2493169   1.395138602E9     2.0 m       0.0 s       44.5%     4.6 m       2.5 m 
+INFO  21:52:30,661 ProgressMeter -     10:33490397   1.713730967E9     2.5 m       0.0 s       54.6%     4.6 m       2.1 m 
+INFO  21:53:00,663 ProgressMeter -     12:60719505   2.011486054E9     3.0 m       0.0 s       64.1%     4.7 m     101.0 s 
+INFO  21:53:30,665 ProgressMeter -     15:55592513   2.342707927E9     3.5 m       0.0 s       75.3%     4.7 m      69.0 s 
+INFO  21:54:00,667 ProgressMeter -     18:71763721   2.653014306E9     4.0 m       0.0 s       84.6%     4.8 m      44.0 s 
+INFO  21:54:30,669 ProgressMeter -      X:98176429   2.979058758E9     4.5 m       0.0 s       95.0%     4.8 m      14.0 s 
+INFO  21:54:50,225 ProgressMeter -            done   3.137454505E9     4.9 m       0.0 s      100.0%     4.9 m       0.0 s 
+INFO  21:54:50,226 ProgressMeter - Total runtime 291.72 secs, 4.86 min, 0.08 hours 
+INFO  21:54:50,227 MicroScheduler - 23303537 reads were filtered out during the traversal out of approximately 56742906 total reads (41.07%) 
+INFO  21:54:50,227 MicroScheduler -   -> 0 reads (0.00% of total) failing BadCigarFilter 
+INFO  21:54:50,228 MicroScheduler -   -> 36561 reads (0.06% of total) failing BadMateFilter 
+INFO  21:54:50,228 MicroScheduler -   -> 16462375 reads (29.01% of total) failing DuplicateReadFilter 
+INFO  21:54:50,228 MicroScheduler -   -> 0 reads (0.00% of total) failing FailsVendorQualityCheckFilter 
+INFO  21:54:50,228 MicroScheduler -   -> 0 reads (0.00% of total) failing MalformedReadFilter 
+INFO  21:54:50,229 MicroScheduler -   -> 0 reads (0.00% of total) failing MappingQualityUnavailableFilter 
+INFO  21:54:50,229 MicroScheduler -   -> 6788584 reads (11.96% of total) failing MappingQualityZeroFilter 
+INFO  21:54:50,229 MicroScheduler -   -> 16017 reads (0.03% of total) failing NotPrimaryAlignmentFilter 
+INFO  21:54:50,229 MicroScheduler -   -> 0 reads (0.00% of total) failing Platform454Filter 
+INFO  21:54:50,229 MicroScheduler -   -> 0 reads (0.00% of total) failing UnmappedReadFilter 
+------------------------------------------------------------------------------------------
+Done. ------------------------------------------------------------------------------------------

@@ -1,0 +1,12 @@
+Steps:
+
+1) bam_readcounts:
+	a) create_regions
+	b) run_bam_readcounts
+2) combine mutation
+3) snpeff
+4) bam_readcounts/kras_manual_curation/:
+	a) run_format_kras_bam_readcounts.sh, format_kras_bam_readcounts.py
+	b) find_samples_without_kras_mutations.sh
+	c) make_final_formatted_kras_manual_curation_file.sh
+	d) run_add_kras_manual_curations.sh, add_kras_manual_curations.py

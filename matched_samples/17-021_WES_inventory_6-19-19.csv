@@ -1,0 +1,62 @@
+Study ID	Tissue ID	Cohort	Biopsy	Date	Snapfrozen	OCT	tube ID
+3	T01428	Panc	Pre-Tx	6/28/2017	Snapfrozen	N/A	
+3	T01452	Panc	Pre-xRT	7/26/2017	Snapfrozen	N/A	
+3	T01474	Panc	Post-xRT	8/28/2017	Snapfrozen	N/A	EK-T 8-28-18
+4	T01427	MSS CRC	Pre-Tx	6/28/17	Snapfrozen	N/A	
+4	T01451	MSS CRC	Pre-xRT	7/26/17	Snapfrozen	N/A	
+4	T01540	MSS CRC	Post-xRT	11/2/17	Snapfrozen	OCT	
+7	T01520	MSS CRC	Pre-xRT	9/12/17	Snapfrozen	OCT	
+11	T01433	MSS CRC	Pre -Tx	6/30/17	Snapfrozen	N/A	
+12	T01449	MSS CRC	Pre -Tx	7/24/17	Snapfrozen	N/A	
+12	T01473	MSS CRC	Pre-xRT	8/28/17	Snapfrozen	N/A	
+12	T01513	MSS CRC	Post-xRT	10/3/17	Snapfrozen	OCT	
+17	T01455	Panc	Pre -Tx	8/1/17	Snapfrozen	N/A	
+18	T01458	MSS CRC	Pre -Tx	8/8/17	Snapfrozen	N/A	
+18	T01483	MSS CRC	Pre-xRT	9/5/17	Snapfrozen	N/A	
+18	T01523	MSS CRC	Post-xRT	10/17/17	Snapfrozen	OCT	
+20	T01490	MSS CRC	Pre-xRT	9/11/17	Snapfrozen	OCT	
+25	T01489	MSS CRC	Pre -Tx	9/11/17	Snapfrozen	OCT	
+25	T01517	MSS CRC	Pre-xRT	10/2/17	Snapfrozen	OCT	
+27	T01496	MSS CRC	Pre -Tx	9/13/17	Snapfrozen	OCT	
+27	T01531	MSS CRC	Pre-xRT	10/19/17	Snapfrozen	OCT	
+30	T01522	MSS CRC	Pre -Tx	10/10/17	Snapfrozen	OCT	
+30	T01542	MSS CRC	Pre-xRT	11/2/17	Snapfrozen	OCT	
+30	T01583	MSS CRC	Post-xRT	12/11/17	Snapfrozen	OCT	
+32	T01512	Panc	Pre -Tx	9/29/17	Snapfrozen	OCT	
+33	T01534	Panc	Pre -Tx	10/25/17	Snapfrozen	OCT	
+33	T01566	Panc	Pre-xRT	11/20/17	Snapfrozen	OCT	
+33	T01600	Panc	Post-xRT	12/27/17	Snapfrozen	OCT	
+34	T01562	Panc	Pre -Tx	11/16/17	Snapfrozen	OCT	
+36	T01642	MSS CRC	Pre-xRT	1/31/18	Snapfrozen	OCT	T0169 01-31-18
+36	T01609	MSS CRC	Pre -Tx	1/3/18	Snapfrozen	OCT	RM-T01 1-3-18
+41	T01654	Panc	Pre -Tx	2/7/18	Snapfrozen	OCT	
+41	T01718	Panc	Post-xRT	4/9/18	Snapfrozen	OCT	
+44	T01697	Panc	Pre -Tx	3/14/18	Snapfrozen	OCT	
+44	T01712	Panc	Pre-xRT	4/5/18	Snapfrozen	OCT	4/5/2018
+50	T01737	Panc	Pre -Tx	5/7/18	Snapfrozen	OCT	
+50	T01768	Panc	Pre-xRT	6/4/18	Snapfrozen	OCT	
+50	T01808	Panc	Post-xRT	7/18/18	Snapfrozen	OCT	EB-7-18-18
+51	T01742	MSS CRC	Pre -Tx	5/17/18	Snapfrozen	OCT	T01742-5-17-18
+51	T01778	MSS CRC	Pre-xRT	6/12/18	Snapfrozen	OCT	6/12/2018
+52	T01760	Panc	Pre -Tx	5/25/18	Snapfrozen	OCT	
+52	T01784	Panc	Pre-xRT	6/15/18	Snapfrozen	OCT	
+52	T01837	Panc	Post-xRT	8/10/18	Snapfrozen	OCT	8/10/2018
+54	T01765	MSI CRC	Pre -Tx	5/31/18	Snapfrozen	OCT	
+56	T01792	Panc	Pre -Tx	6/25/18	Snapfrozen	OCT	
+56	T01823	Panc	Pre-xRT	8/1/2018	Snapfrozen	OCT	
+63	T01816	Panc	Pre -Tx	7/26/18	Snapfrozen	OCT	
+63	T01847	Panc	Pre-xRT	8/17/2018	Snapfrozen	OCT	
+68	T01854	MSS CRC	Pre-Tx	8/28/2018	Snapfrozen	OCT	
+68	T01887	MSS CRC	Pre-xRT	9/26/2018	Snapfrozen	OCT	
+68	T01919	MSS CRC	Post-xRT	10/24/2018	Snapfrozen	OCT	
+70	T01917	MSS CRC	Pre-Tx	10/22/2018	Snapfrozen	OCT	
+71	T01921	MSS CRC	Pre-Tx	10/25/2018	Snapfrozen	N/A	
+71	T01947	MSS CRC	Pre-xRT	11/19/2018	Snapfrozen	OCT	
+72	T01901	MSS CRC	Pre-Tx	10/11/2018	Snapfrozen	OCT	
+73	T01943	MSS CRC	Pre-Tx	11/13/2018	Snapfrozen	OCT	
+73	T01961	MSS CRC	Pre-xRT	12/6/2018	Snapfrozen	OCT	
+74	T01955	MSS CRC	Pre-Tx	11/26/2018	Snapfrozen	OCT	
+74	T01976	MSS CRC	Pre-xRT	12/19/2018	Snapfrozen	OCT	
+74	T02045	MSS CRC	Post-xRT	2/8/2019	Snapfrozen	OCT	
+72	T01934	MSS CRC	Pre-xRT	11/6/2018	Snapfrozen	OCT	
+	T01498	MSS CRC		9/14/2017	Snapfrozen	N/A	Not a 17-021 sample, incorrectly added to the inventory

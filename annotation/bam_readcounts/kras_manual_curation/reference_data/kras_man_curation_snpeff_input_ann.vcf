@@ -1,0 +1,17 @@
+##SnpEffVersion="4.3t (build 2017-11-24 10:18), by Pablo Cingolani"
+##SnpEffCmd="SnpEff  -noStats -no PROTEIN_STRUCTURAL_INTERACTION_LOCUS -no NEXT_PROT -fastaProt ../results//kras_man_curation_snpeff_input.fasta GRCh37.75 ../results/kras_man_curation_snpeff_input.vcf "
+##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO' ">
+##INFO=<ID=LOF,Number=.,Type=String,Description="Predicted loss of function effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+##INFO=<ID=NMD,Number=.,Type=String,Description="Predicted nonsense mediated decay effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	NORMAL	TUMOR
+12	25378562	12_25378562_C_T	C	T	.	PASS	KRAS_p.A146T;ANN=T|missense_variant|MODERATE|KRAS|ENSG00000133703|transcript|ENST00000256078|protein_coding|4/6|c.436G>A|p.A146T|500/1119|436/570|146/189||	DP:AP	NA:NA	NA:NA
+12	25380275	12_25380275_T_G	T	G	.	PASS	KRAS_p.Q61H;ANN=G|missense_variant|MODERATE|KRAS|ENSG00000133703|transcript|ENST00000256078|protein_coding|3/6|c.183A>C|p.Q61H|247/1119|183/570|61/189||	DP:AP	NA:NA	NA:NA
+12	25380275	12_25380275_T_A	T	A	.	PASS	KRAS_p.Q61H;ANN=A|missense_variant|MODERATE|KRAS|ENSG00000133703|transcript|ENST00000256078|protein_coding|3/6|c.183A>T|p.Q61H|247/1119|183/570|61/189||	DP:AP	NA:NA	NA:NA
+12	25398281	12_25398281_C_T	C	T	.	PASS	KRAS_p.G13D;ANN=T|missense_variant|MODERATE|KRAS|ENSG00000133703|transcript|ENST00000256078|protein_coding|2/6|c.38G>A|p.G13D|102/1119|38/570|13/189||	DP:AP	NA:NA	NA:NA
+12	25398282	12_25398282_C_A	C	A	.	PASS	KRAS_p.G13C;ANN=A|missense_variant|MODERATE|KRAS|ENSG00000133703|transcript|ENST00000256078|protein_coding|2/6|c.37G>T|p.G13C|101/1119|37/570|13/189||	DP:AP	NA:NA	NA:NA
+12	25398284	12_25398284_C_A	C	A	.	PASS	KRAS_p.G12V;ANN=A|missense_variant|MODERATE|KRAS|ENSG00000133703|transcript|ENST00000256078|protein_coding|2/6|c.35G>T|p.G12V|99/1119|35/570|12/189||	DP:AP	NA:NA	NA:NA
+12	25398284	12_25398284_C_T	C	T	.	PASS	KRAS_p.G12D;ANN=T|missense_variant|MODERATE|KRAS|ENSG00000133703|transcript|ENST00000256078|protein_coding|2/6|c.35G>A|p.G12D|99/1119|35/570|12/189||	DP:AP	NA:NA	NA:NA
+12	25398284	12_25398284_C_G	C	G	.	PASS	KRAS_p.G12A;ANN=G|missense_variant|MODERATE|KRAS|ENSG00000133703|transcript|ENST00000256078|protein_coding|2/6|c.35G>C|p.G12A|99/1119|35/570|12/189||	DP:AP	NA:NA	NA:NA
+12	25398285	12_25398285_C_A	C	A	.	PASS	KRAS_p.G12C;ANN=A|missense_variant|MODERATE|KRAS|ENSG00000133703|transcript|ENST00000256078|protein_coding|2/6|c.34G>T|p.G12C|98/1119|34/570|12/189||	DP:AP	NA:NA	NA:NA
+12	25398285	12_25398285_C_T	C	T	.	PASS	KRAS_p.G12S;ANN=T|missense_variant|MODERATE|KRAS|ENSG00000133703|transcript|ENST00000256078|protein_coding|2/6|c.34G>A|p.G12S|98/1119|34/570|12/189||	DP:AP	NA:NA	NA:NA
+12	25398285	12_25398285_C_G	C	G	.	PASS	KRAS_p.G12R;ANN=G|missense_variant|MODERATE|KRAS|ENSG00000133703|transcript|ENST00000256078|protein_coding|2/6|c.34G>C|p.G12R|98/1119|34/570|12/189||	DP:AP	NA:NA	NA:NA
