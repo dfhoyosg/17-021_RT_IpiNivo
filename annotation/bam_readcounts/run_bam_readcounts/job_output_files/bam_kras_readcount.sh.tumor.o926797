@@ -1,4 +1,0 @@
-Region: ./KRAS_mutation_regions.txt
-Bam file: /mnt/data/david/ting/17-021_RT_Ipi_Nivo/results/preprocessing/recal//NS90_17_021_WBC_73-NS90_T01943/NS90_T01943/NS90_T01943_merged_markdup_realigned_recal.bam
-Output: /mnt/data/david/ting/17-021_RT_Ipi_Nivo/results/annotation/bam_readcounts//NS90_17_021_WBC_73-NS90_T01943/tumor_kras_bam_readcounts.txt
-TMP: /mnt/localssd/926797.1.standard.q

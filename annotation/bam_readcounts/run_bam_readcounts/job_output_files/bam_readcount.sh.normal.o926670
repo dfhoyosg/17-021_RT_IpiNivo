@@ -1,4 +1,0 @@
-Region: /mnt/data/david/ting/17-021_RT_Ipi_Nivo/results/annotation/bam_readcounts//NS90_17_021_WBC_25-T01517/all_snv_indel_regions.txt
-Bam file: /mnt/data/david/ting/17-021_RT_Ipi_Nivo/results/preprocessing/recal//NS90_17_021_WBC_25-T01517/NS90_17_021_WBC_25/NS90_17_021_WBC_25_merged_markdup_realigned_recal.bam
-Output: /mnt/data/david/ting/17-021_RT_Ipi_Nivo/results/annotation/bam_readcounts//NS90_17_021_WBC_25-T01517/normal_bam_readcounts.txt
-TMP: /mnt/localssd/926670.1.standard.q

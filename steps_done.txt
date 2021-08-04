@@ -1,5 +1,0 @@
-1) matched_samples/
-2) preprocessing/
-3) mutation_calling/
-4) annotation/
-5) final_files/ (note did not filter on coverage for this dataset)

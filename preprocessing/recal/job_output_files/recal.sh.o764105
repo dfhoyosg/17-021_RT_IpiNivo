@@ -1,4 +1,0 @@
-There were no warn messages.
-There were 2 WARN messages, the first 2 are repeated below.
-WARN  14:07:15,579 SimpleTimer - Clock drift of -1,573,082,125,747,291,847 - -1,573,082,106,345,009,778 = 19,402,282,069 nanoseconds detected, vs. max allowable drift of 5,000,000,000. Assuming checkpoint/restart event. 
-WARN  14:07:30,189 SimpleTimer - Clock drift of -1,573,082,106,345,612,664 - -1,573,082,125,747,291,847 = 19,401,679,183 nanoseconds detected, vs. max allowable drift of 5,000,000,000. Assuming checkpoint/restart event. 
